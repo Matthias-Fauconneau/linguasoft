@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Linguasoft - Learn foreign languages online - French</title>
+<style type="text/css">
+#title { text-align: center; font-size: 22pt;  }
+#photo { float: right; max-width: 50%; margin-left: 16px;}
+#game { text-align: center; width: 50%; }
+#log { display: none; }
+#last { margin-top: 16pt; }
+#footer {  position:fixed; bottom: 0; right: 0; font-size: 8pt; }
+
+.debug { display: none; }
+.description, .action, .question, .answer, .choice { font-size: 16pt; }
+.description { color: #0040FF; text-align: left; }
+.action { color: #0040FF;  text-align: right; }
+.question { color: #FF4000; text-align: left; }
+.answer { color: #FF4000; text-align: right; }
+#choice { text-align: center; margin-top: 16pt; }
+#choice div:hover { color: #FFFFFF; background-color: #0040FF; }
+</style>
+<script type="text/javascript" src="fren.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<img id="photo" src="loading.gif"/>
+<div id="game" >
+	<div id="title" ></div>
+	<div id="log" ></div>
+	<div id="last" ></div>
+	<div id="prompt" ></div>
+	<div id="choice"></div>
+	<audio id="audio" controls><source id="source" type="audio/mpeg"></audio>
+</div>
+<div id="footer"><a href="mailto:matthias.fauconneau@gmail.com" >Copyright 2010 Matthias Fauconneau</a></div>
+</body>
+</html>
